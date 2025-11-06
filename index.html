@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TGV Games</title>
+  <style>
+    body {
+      background: #0e1525;
+      color: #e5e5e5;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1a2335;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #fff;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    .game {
+      background: #1b2438;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease;
+    }
+    .game:hover {
+      transform: scale(1.03);
+    }
+    .thumb {
+      width: 100%;
+      height: 130px;
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .info {
+      padding: 10px;
+      text-align: center;
+    }
+    .info h3 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    .info a {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 6px 10px;
+      background: #3b82f6;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+    .info a:hover {
+      background: #2563eb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TGV Games</h1>
+    <h2>Games And Apps Added By: Bloxcraft Studios And Tharun9772Gaming</h2>
+    <h2>Site By: TGV Games</h2>
+  </header>
+
+  <div class="container">
+ 
+    <div class="game">
+      <div class="thumb">
+        <img src="https://imgur.com/flepwn4" alt="GN-Math">
+      </div>
+      <div class="info">
+        <h3>GN-Math</h3>
+        <a href="/gn-math" target="_blank">Play</a>
+      </div>
+    </div>
+
+        <div class="game">
+      <div class="thumb">
+        <img src="https://cdn.jsdelivr.net/gh/tharun9772/tharun9772.github.io@main/bloxcraft.png" alt="Bloxcraft UBG Hub">
+      </div>
+      <div class="info">
+        <h3>Bloxcraft Unblocked Hub</h3>
+        <a href="/bloxcraft-ubg-hub" target="_blank">Play</a>
+      </div>
+    </div>
+
+    <div class="game">
+      <div class="thumb">
+        <img src="https://ik.imagekit.io/yer2bvojn/logo.png?updatedAt=1749535027761" alt="Elite Gamez">
+      </div>
+      <div class="info">
+        <h3>Elite Gamez</h3>
+        <a href="/elite-gamez" target="_blank">Play</a>
+      </div>
+    </div>
+
+    <div class="game">
+      <div class="thumb">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968517.png" alt="UGS Files">
+      </div>
+      <div class="info">
+        <h3>UGS Files</h3>
+        <a href="/ugs-files" target="_blank">Play</a>
+      </div>
+    </div>
+
+    <!-- Example format for adding more:
+    <div class="game">
+      <div class="thumb">
+        <img src="IMAGE_URL_HERE" alt="GAME_NAME">
+      </div>
+      <div class="info">
+        <h3>GAME_NAME</h3>
+        <a href="GAME_URL_HERE" target="_blank">Play Now</a>
+      </div>
+    </div>
+    -->
+
+  </div>
+</body>
+</html>
